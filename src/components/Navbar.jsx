@@ -77,25 +77,24 @@ const Navbar = (props) => {
 
   return (
     <Nav show={hideNavbarOnScroll}>
-      <Box py={[2, 3]} width={1} as="nav" bg="white">
+      <Box py={[2, 3]} width={1} as='nav' bg='white'>
         <Flex
           style={{ maxWidth: 1300 }}
-          justifyContent="center"
-          alignItems="center"
-          mx="auto"
-          px={[3, null, 4]}
-        >
+          justifyContent='center'
+          alignItems='center'
+          mx='auto'
+          px={[3, null, 4]}>
           <Box width={100}>
             <Menu menu={menu} />
           </Box>
 
           <Text
             as={GatsbyLink}
-            to="/"
+            to='/'
             aria-label={ariaHomaPageLinkLabel}
             style={{ textDecoration: 'none' }}
-            ml="auto"
-          >
+            ml='auto'>
+            Fuckfuckfuck
             {logo ? (
               <img
                 src={logo.url}
@@ -108,35 +107,34 @@ const Navbar = (props) => {
                 <ShoppingBag
                   width={['25px', '30px']}
                   height={['25px', '30px']}
-                  color="primary"
+                  color='primary'
                 />
-
+                Fuckfuckfuckfuck
                 <Text
                   ml={2}
-                  color="primary"
+                  color='primary'
                   fontSize={[2, 3]}
-                  sx={{ display: ['none', 'block'] }}
-                >
+                  sx={{ display: ['none', 'block'] }}>
                   {storeName}
                 </Text>
               </Flex>
             )}
           </Text>
 
-          <Flex ml="auto" width={100}>
-            <Box ml="auto">
-              <Search width="25px" height="25px" color="primary" />
+          <Flex ml='auto' width={100}>
+            <Box ml='auto'>
+              fuckfuckfuck
+              <Search width='25px' height='25px' color='primary' />
             </Box>
 
             <Text
               as={GatsbyLink}
               aria-label={ariaShoppingCartLabel}
-              to="/cart"
+              to='/cart'
               fontSize={4}
               style={{ textDecoration: 'none' }}
-              ml="auto"
-            >
-              <ShoppingCart width="25px" height="25px" color="primary" />
+              ml='auto'>
+              <ShoppingCart width='25px' height='25px' color='primary' />
             </Text>
           </Flex>
         </Flex>
